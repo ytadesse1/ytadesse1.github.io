@@ -1,0 +1,59 @@
+container {
+    display: grid;
+    justify-content: center;
+    margin: 30px;
+}
+
+body {
+    background-color: lightgray;
+    justify-content: center;
+    display: grid;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+nav {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.three-titles {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+li {
+    list-style-type:none;
+}
+
+h4, h2, footer {
+    text-align: center;
+}
+
+h2 {
+
+}
+
