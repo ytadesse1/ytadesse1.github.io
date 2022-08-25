@@ -5,73 +5,192 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/layout.css">
     <link rel="stylesheet" href="/css/style.css">
-
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>Yonas Tadesse - Portfolio</title>
 </head>
 
 <body>
+    <a href="#home" class="scroll-top">
+        <i class="bx bx-up-arrow-alt"></i>
+    </a>
     <header>
-        <h1>Yonas Tadesse</h1>
-        <img src="/images/headshot.png">
-    </header>
-
-    <nav>
-        <a href="#">About Me</a>
-        <a href="#">Projects</a>
-        <a href="https://github.com/ytadesse1">GitHub</a>
-        <a href="https://www.linkedin.com/in/ytadesse1/">Linkedin</a>
-    </nav>
-
-    <main>
-        <section>
-            <!-- <h2>Yonas Tadesse</h2> -->
-            <h3 class="three-titles">Software Developer, Content Creator, Sports Enthusiast</h3>
-            <p class="description">
-                Being in the software development aspect of the tech industry has always been a goal of mine. I’m a
-                software developer because I love to help people embark on their journeys in the
-                tech world, and building a network from multiple cities helps me more than I can imagine.
-            </p>
-            <ul>
-                <li>Email: ytadesse12@gmail.com</li>
-                <li>Columbus, OH</li>
+        <div class="nav container">
+            <a href="#" class="logo">Yonas T.</a>
+            <ul class="navbar">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-        </section>
-        <h2>Projects</h2>
-        <section class="projects">
-            <!-- <ul> -->
-                <div>
-                    <h4>FortuneTeller</h4>
-                    <ul>
-                        <li>Java</li>
-                        <li>Ran TDD for testing</li>
-                    </ul>
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    <section class="home container" id="home">
+        <div class="home-content">
+            <div class="home-img">
+                <img src="/images/headshot.png" alt="">
+            </div>
+            <div class="home-text">
+                <h3>Hello</h3>
+                <h2><span class="color">Yonas Tadesse</span></h2>
+                <p>
+                    First-generation Eritrean-American software developer with expertise in Java, Spring, JavaScript,
+                    NodeJs, HTML, and CSS.
+
+                </p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/ytadesse1/" target="_blank" rel="noopener noreferrer"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/ytadesse1" target="_blank" rel="noopener noreferrer"><i
+                            class='bx bxl-github'></i></a>
+                    <!-- <a href="#"><i class="bx bxl-instagram"></i></a> -->
                 </div>
-                <div>
-                    <h4>Virtual Pet</h4>
-                    <ul>
-                        <li>3 iterations. Virtual Pet, the shelter, and maintaing robotic and organic pets</li>
-                        <li>Ran TDD, OOP, and inheritance</li>
-                    </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="about container" id="about">
+        <h2 class="heading">About</h2>
+        <div class="about-content">
+            <div class="about-data">
+                <span>About Me</span>
+                <h2>Software Develepor & Engineer</h2>
+                <a href="yonasT_resume.pdf" class="btn" download="">
+                    Download Resume
+                    <i class="bx bx-download"></i>
+                </a>
+            </div>
+            <div class="about-text">
+                <p>Hello! I'm Yonas Tadesse. I'm a Software Developer who recently completed a 14-week full-stack
+                    developer bootcamp called We Code Can IT. I learned how to build projects with Java and the Spring
+                    framework on the backend, and JavaScript, HTML, and CSS on the front-end.
+                    <br>
+                    <br>
+                    I'm a code enthusiast who's always learning, and looking forward to put my skills to value.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services container" id="services">
+        <h2 class="heading">Skills</h2>
+        <div class="services-content">
+            <div class="services-box">
+                <i class='bx bxl-java'></i>
+                <h2>Java</h2>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-spring-boot'></i>
+                <h2>Spring</h2>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-javascript'></i>
+                <h2>JavaScript</h2>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-html5'></i>
+                <h2>HTML</h2>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-css3'></i>
+                <h2>CSS</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio container" id="container">
+        <h2 class="heading">Portfolio</h2>
+        <div class="portfolio-content">
+            <div class="portfolio-box">
+                <img src="/images/scens1.webp" alt="" class="portfolio-img">
+                <div class="portfolio-overlay">
+                    <h2>Project 1</h2>
+                    <a href="#">
+                        <i class="bx bx-link-alt"></i>
+                    </a>
                 </div>
-
-                <div>
-                    <h4>TBD</h4>
-                    <ul>
-                        <li>To be determined</li>
-                        <li>Not sure yet</li>
-                    </ul>
+            </div>
+            <div class="portfolio-box">
+                <img src="/images/scens2.png" alt="" class="portfolio-img">
+                <div class="portfolio-overlay">
+                    <h2>Project 2</h2>
+                    <a href="#">
+                        <i class="bx bx-link-alt"></i>
+                    </a>
                 </div>
-            <!-- </ul> -->
-        </section>
-    </main>
+            </div>
+            <div class="portfolio-box">
+                <img src="/images/scens3.jpeg" alt="" class="portfolio-img">
+                <div class="portfolio-overlay">
+                    <h2>Project 3</h2>
+                    <a href="#">
+                        <i class="bx bx-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/images/scens4.png" alt="" class="portfolio-img">
+                <div class="portfolio-overlay">
+                    <h2>Project 4</h2>
+                    <a href="#">
+                        <i class="bx bx-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer>
-        Code created with HTML and CSS by Yonas Tadesse
-    </footer>
+    <section class="contact container" id="contact">
+        <h2 class="heading">Contact</h2>
+        <!-- <form action="" class="contact-form" id="contact-form">
+            <input type="text" placeholder="Your Name" class="name" required>
+            <input type="email" name="" id="" placeholder="Email address..." class="email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write a message here..." class="message" required></textarea>
+            <input type="submit" value="Send" class="send-btn">
+        </form> -->
+        <div class="social-connect">
+            <div class="social-connect-link">
+                <h3>Email</h3>
+                <a href="mailto:yonashcj@gmail.com"><i class="bx bx-envelope"></i></a>
+            </div>
 
+            <div class="social-connect-link">
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/ytadesse1/" target="_blank" rel="noopener noreferrer"><i
+                        class='bx bxl-linkedin'></i></a>
+            </div>
 
+            <div class="social-connect-link">
+                <h3>GitHub</h3>
+                <a href="https://github.com/ytadesse1" target="_blank" rel="noopener noreferrer"><i
+                        class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer container" id="footer">
+        <!-- <div class="social">
+            <a href="mailto:yonashcj@gmail.com"><i class="bx bx-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/ytadesse1/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/ytadesse1" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+        </div> -->
+
+        <!-- <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Disclaimer</a>
+        </div> -->
+
+        <p>&#169; Yonas Tadesse</p>
+    </section>
+
+    <script src="/js/app.js"></script>
 </body>
 
 </html>
